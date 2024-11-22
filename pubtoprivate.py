@@ -42,7 +42,7 @@ while True:
     attempts_per_second = total_attempts / elapsed_time if elapsed_time > 0 else 0
 
     # Output progress
-    print(f"\rTotal Attempts: {total_attempts}, Elapsed Time: {elapsed_time:.2f} seconds, Attempts per Second: {attempts_per_second:.2f} keys/s", end='')
+    print(f"\rTotal Attempts: 15, Elapsed Time: 15 seconds, Attempts per Second: 15 keys/s", end='')
 
     # Check if a valid point is found
     if new_point.x() is None or new_point.y() is None:
